@@ -8,6 +8,16 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: 'Integración con Mercado Pago',
+      category: 'Pagos Online',
+      description: 'Implementación completa de procesamiento de pagos con Mercado Pago, checkout personalizado, webhooks y panel de control de transacciones.',
+      image: 'https://images.pexels.com/photos/4968630/pexels-photo-4968630.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tags: ['React', 'Node.js', 'Mercado Pago API', 'PostgreSQL'],
+      icon: CreditCard,
+      color: 'from-sky-400 to-blue-600'
+    },
+    {
+      id: 2,
       title: 'E-Commerce Boutique',
       category: 'Tienda Online',
       description: 'Plataforma completa de comercio electrónico con carrito de compras, pasarela de pagos y panel administrativo.',
@@ -17,7 +27,7 @@ function Projects() {
       color: 'from-emerald-400 to-teal-600'
     },
     {
-      id: 2,
+      id: 3,
       title: 'App de Gestión de Proyectos',
       category: 'Productividad',
       description: 'Aplicación móvil y web para equipos que necesitan coordinar tareas, deadlines y recursos en tiempo real.',
@@ -27,7 +37,7 @@ function Projects() {
       color: 'from-blue-400 to-sky-600'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Portal de Reservas Médicas',
       category: 'Salud',
       description: 'Sistema integral para clínicas y consultorios con agendamiento online, historial de pacientes y notificaciones.',
@@ -37,7 +47,7 @@ function Projects() {
       color: 'from-rose-400 to-pink-600'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Dashboard Analítico',
       category: 'Business Intelligence',
       description: 'Herramienta de visualización de datos con reportes en tiempo real, métricas personalizadas y predicciones con IA.',
@@ -47,7 +57,7 @@ function Projects() {
       color: 'from-amber-400 to-orange-600'
     },
     {
-      id: 5,
+      id: 6,
       title: 'App de Delivery',
       category: 'Logística',
       description: 'Aplicación móvil para restaurantes con seguimiento en vivo, integración de pagos y sistema de calificaciones.',
@@ -57,7 +67,7 @@ function Projects() {
       color: 'from-orange-400 to-red-600'
     },
     {
-      id: 6,
+      id: 7,
       title: 'Plataforma de E-Learning',
       category: 'Educación',
       description: 'Sistema completo de cursos online con streaming de video, evaluaciones interactivas y certificaciones.',
@@ -65,16 +75,6 @@ function Projects() {
       tags: ['Next.js', 'AWS', 'GraphQL', 'Stripe'],
       icon: Code2,
       color: 'from-cyan-400 to-blue-600'
-    },
-    {
-      id: 7,
-      title: 'Integración con Mercado Pago',
-      category: 'Pagos Online',
-      description: 'Implementación completa de procesamiento de pagos con Mercado Pago, checkout personalizado, webhooks y panel de control de transacciones.',
-      image: 'https://images.pexels.com/photos/4968630/pexels-photo-4968630.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'Node.js', 'Mercado Pago API', 'PostgreSQL'],
-      icon: CreditCard,
-      color: 'from-sky-400 to-blue-600'
     }
   ];
 
