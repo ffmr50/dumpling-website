@@ -1,4 +1,4 @@
-import { Code2, Smartphone, ShoppingCart, Users, TrendingUp, Calendar, ArrowRight, ExternalLink, Menu, X } from 'lucide-react';
+import { Code2, Smartphone, ShoppingCart, Users, TrendingUp, Calendar, ArrowRight, ExternalLink, Menu, X, CreditCard } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -65,6 +65,16 @@ function Projects() {
       tags: ['Next.js', 'AWS', 'GraphQL', 'Stripe'],
       icon: Code2,
       color: 'from-cyan-400 to-blue-600'
+    },
+    {
+      id: 7,
+      title: 'Integración con Mercado Pago',
+      category: 'Pagos Online',
+      description: 'Implementación completa de procesamiento de pagos con Mercado Pago, checkout personalizado, webhooks y panel de control de transacciones.',
+      image: 'https://images.pexels.com/photos/4968630/pexels-photo-4968630.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tags: ['React', 'Node.js', 'Mercado Pago API', 'PostgreSQL'],
+      icon: CreditCard,
+      color: 'from-sky-400 to-blue-600'
     }
   ];
 
