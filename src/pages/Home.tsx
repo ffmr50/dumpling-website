@@ -1,4 +1,4 @@
-import { Code2, Smartphone, CreditCard, Brain, Menu, X, ArrowRight, Mail, MapPin, Phone } from 'lucide-react';
+import { Code2, Smartphone, CreditCard, Brain, Menu, X, ArrowRight, Mail, MapPin } from 'lucide-react';
 import { useState, FormEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
@@ -417,15 +417,6 @@ function Home() {
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Email</h3>
                     <p className="text-gray-600">andrea@dumpling-tech.com</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-blue-600" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-gray-900 mb-1">Teléfono</h3>
-                    <p className="text-gray-600">+54 11 1234-5678</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
