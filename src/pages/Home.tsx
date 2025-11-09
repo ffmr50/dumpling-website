@@ -416,7 +416,7 @@ function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Email</h3>
-                    <p className="text-gray-600">andrea.viviana.delgado.herrera@gmail.com</p>
+                    <p className="text-gray-600">andrea@dumpling-tech.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
