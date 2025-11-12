@@ -316,12 +316,16 @@ function Home() {
                 <div className="flex flex-col items-center text-center">
                   <div className="relative mb-6">
                     <div className="absolute inset-0 bg-blue-600/20 rounded-full blur-2xl"></div>
-                    <div className="relative w-40 h-40 rounded-full overflow-hidden shadow-2xl">
-                      <img
-                        src="/ChatGPT Image Nov 12, 2025, 07_23_02 PM.png"
-                        alt="Andrea Delgado"
-                        className="w-full h-full object-cover"
-                      />
+                    <div className="relative w-40 h-40 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center shadow-2xl">
+                      <div className="w-36 h-36 bg-white rounded-full flex items-center justify-center">
+                        <svg viewBox="0 0 200 200" className="w-32 h-32">
+                          <circle cx="100" cy="80" r="35" fill="#93C5FD" />
+                          <circle cx="85" cy="75" r="5" fill="#1E40AF" />
+                          <circle cx="115" cy="75" r="5" fill="#1E40AF" />
+                          <path d="M 85 90 Q 100 100 115 90" stroke="#1E40AF" strokeWidth="3" fill="none" strokeLinecap="round" />
+                          <ellipse cx="100" cy="140" rx="50" ry="60" fill="#60A5FA" />
+                        </svg>
+                      </div>
                     </div>
                   </div>
 
