@@ -1,4 +1,4 @@
-import { Code2, Smartphone, ShoppingCart, Users, TrendingUp, Calendar, ArrowRight, ExternalLink, Menu, X, CreditCard } from 'lucide-react';
+import { Code2, Smartphone, ShoppingCart, Users, TrendingUp, Calendar, ArrowRight, Menu, X, CreditCard } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -187,7 +187,7 @@ function Projects() {
                     {project.description}
                   </p>
 
-                  <div className="flex flex-wrap gap-2 mb-4">
+                  <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag, index) => (
                       <span
                         key={index}
@@ -197,11 +197,6 @@ function Projects() {
                       </span>
                     ))}
                   </div>
-
-                  <button className="flex items-center gap-2 text-blue-600 font-semibold group-hover:gap-3 transition-all">
-                    Ver detalles
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
                 </div>
               </div>
             );
@@ -216,19 +211,13 @@ function Projects() {
             Estos son solo ejemplos. Podemos desarrollar la solución perfecta para tu negocio,
             adaptada a tus necesidades específicas.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link
-              to="/#contacto"
-              className="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-colors shadow-lg flex items-center gap-2"
-            >
-              Hablar con el equipo
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-colors flex items-center gap-2">
-              Ver más ejemplos
-              <ExternalLink className="w-5 h-5" />
-            </button>
-          </div>
+          <Link
+            to="/#contacto"
+            className="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-colors shadow-lg flex items-center gap-2 inline-flex"
+          >
+            Hablar con el equipo
+            <ArrowRight className="w-5 h-5" />
+          </Link>
         </div>
 
         <div className="mt-16 grid md:grid-cols-3 gap-8">
