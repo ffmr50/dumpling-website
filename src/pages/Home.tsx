@@ -96,9 +96,6 @@ function Home() {
               <Link to="/proyectos" className="text-gray-700 hover:text-blue-600 transition-colors">
                 Proyectos
               </Link>
-              <button onClick={() => scrollToSection('equipo')} className="text-gray-700 hover:text-blue-600 transition-colors">
-                Equipo
-              </button>
               <button onClick={() => scrollToSection('contacto')} className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
                 Contacto
               </button>
@@ -133,12 +130,6 @@ function Home() {
               >
                 Proyectos
               </Link>
-              <button
-                onClick={() => scrollToSection('equipo')}
-                className="block w-full text-left text-gray-700 hover:text-blue-600 transition-colors py-2"
-              >
-                Equipo
-              </button>
               <button
                 onClick={() => scrollToSection('contacto')}
                 className="block w-full text-left bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
