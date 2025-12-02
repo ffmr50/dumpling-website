@@ -319,7 +319,7 @@ function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Ubicación</h3>
-                    <p className="text-gray-600">México, Argentina, Ecuador</p>
+                    <p className="text-gray-600">México, Argentina</p>
                   </div>
                 </div>
               </div>
